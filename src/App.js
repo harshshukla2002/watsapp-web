@@ -28,6 +28,8 @@ function App() {
     const storedMessages = await getMessages();
     const uniqueMessages = {}; // Temporary storage to filter duplicates
 
+    setMessageContent(storedMessages);
+
     storedMessages.forEach((msg) => {
       if (!uniqueMessages[msg.contact]) uniqueMessages[msg.contact] = new Set();
       if (!uniqueMessages[msg.contact].has(msg.timestamp)) {
@@ -70,6 +72,7 @@ function App() {
       contact: selectedContact,
       payload: newMessage,
     });
+    setMessageContent((prevMessages) => [...prevMessages, newMessage]);
     await addMessage(newMessage);
   };
 

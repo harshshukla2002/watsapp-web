@@ -10,8 +10,11 @@
   font-size: 22px;
   text-align: Center;
   text-transform: uppercase;
+  position: fixed;
+  width: 80%;
 }
 
 .message-container {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+  margin-top: 65px;
 }
