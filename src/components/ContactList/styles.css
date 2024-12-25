@@ -1,0 +1,42 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 2px solid #dee2e6;
+  height: 100vh;
+  flex: 1;
+  position: fixed;
+  z-index: 1;
+  background: white;
+}
+
+.header input {
+  border: none;
+  outline: none;
+  border: 2px solid #dee2e6;
+  border-radius: 4px;
+  border-bottom: 5px solid #ced4da;
+  padding: 3px 5px;
+  width: 17vw;
+  margin: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.contact img {
+  width: 50px;
+}
+
+.contact:hover {
+  background-color: #e9ecef;
+}
+
+.active {
+  background-color: #e9ecef;
+}

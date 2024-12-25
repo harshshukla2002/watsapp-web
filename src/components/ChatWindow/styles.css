@@ -1,0 +1,17 @@
+.chat-screen {
+  flex: 5;
+  margin-left: 20%;
+}
+
+.chat-screen .header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  font-size: 22px;
+  text-align: Center;
+  text-transform: uppercase;
+}
+
+.message-container {
+  margin-bottom: 100px;
+}

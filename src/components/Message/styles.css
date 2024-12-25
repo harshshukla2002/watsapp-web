@@ -1,0 +1,19 @@
+.messages {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.message {
+  background-color: #6c757d;
+  border-radius: 4px;
+  padding: 5px 10px;
+  width: 40vw;
+  align-self: flex-end;
+}
+
+.message p {
+  color: white;
+  text-align: right;
+}
