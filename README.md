@@ -14,12 +14,12 @@ npm start
 
 - I choose Minimal Simple Design Choice which is user friendly and also user can easily use the app.
 - Created a custom hook useIndexDB which handles the storage of app.
-- Created Context and useReducer which store the value and pass globally
+- Created Context and useReducer which store the value and pass globally.
 
 ## Features
 
 - user can send message to individual person
-- user can type also say message which automatically types in input.
+- user can type and also say message which automatically types in input.
 
 ## Links
 
